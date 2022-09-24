@@ -1,3 +1,5 @@
+Dont copy my work
+
 Dockerize this app and push it to dockerhub
 Reduce the size of the docker image
 there are 2 branches in this repository for 2 versions of the app
