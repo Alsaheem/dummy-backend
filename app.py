@@ -32,7 +32,7 @@ def posts():
             "url": "https://images.unsplash.com/photo-1579572331145-5e53b299c64e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9vZGllfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
         },
     ]
-    response = flask.jsonify({"posts": posts, "version": "v1"})
+    response = flask.jsonify({"posts": posts, "version": version})
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response, 200
 
