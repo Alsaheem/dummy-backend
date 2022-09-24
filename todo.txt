@@ -13,4 +13,4 @@ make sure the app is running correctly
 
 docker build --tag dummy-backend .
 
-docker run -d -p 500:5000 dummy-backend
+docker run -d -p 5000:5000 dummy-backend
