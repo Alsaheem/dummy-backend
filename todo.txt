@@ -1,0 +1,12 @@
+Dockerize this app and push it to dockerhub
+Reduce the size of the docker image
+there are 2 branches in this repository for 2 versions of the app
+
+v1 branch is for the version 1 of this api
+v2 branch is for the version 2 of this api
+
+build the docker image for the 2 versions and then tag the images accordingly
+
+push your project to dockerhub and tag v1 for v1 image and v2 for v2 image
+
+make sure the app is running correctly
